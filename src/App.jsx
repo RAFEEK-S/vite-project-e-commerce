@@ -28,7 +28,7 @@ function App() {
       <div>
         <Header setToggle={setToggle}/>
         <Cardproduct final={final} addItem={addItem} />
-        {toggle && <Product/>}
+        {toggle && <Product setToggle={setToggle}/>}
       </div>
     </>
   );
